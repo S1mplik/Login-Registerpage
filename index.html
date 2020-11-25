@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="style.css">
+<script defer src="main.js"></script>
+<h2>Přihlášovací / Registrační stránka</h2>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Registrovat se</h1>
+			<input type="text" placeholder="Jméno" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Heslo" />
+			<button>Zaregistrovat se</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Přihlásit se</h1>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Heslo" />
+			<a href="#">Zapoměl jsem heslo ?</a>
+			<button>Přihlásit se</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Vítej zpět</h1>
+				<p>Abyste s námi zůstali v kontaktu, přihlaste se pomocí svých osobních údajů</p>
+				<button class="ghost" id="signIn">Přihlásit se</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Ahoj příteli</h1>
+				<p>Zadejte své osobní údaje a vydejte se s námi na cestu</p>
+				<button class="ghost" id="signUp">Zaregistrovat se</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<p>
+		Vytvořeno <i class="fa fa-heart"></i> od: 
+		<a target="_blank" href="http://www.lehky-web.eu">Daniel Dibelka</a>
+	</p>
+</footer>
